@@ -68,7 +68,7 @@ functions:
     handler: handler.view
     events:
       - http:
-          path: reports/view
+          path: reports/view/{id}
           method: get
 #    
 #    The following are a few example events you can configure
