@@ -10,8 +10,8 @@ Use the package manager [NPM](https://www.npmjs.com/get-npm) to install the requ
 npm install
 ```
 
-(I just commited my .env, to make things easier to test. So you can ignore this step)
 Rename .env.example to .env and add a valid mongo atlas instance.
+Or, get Leandro's .env so you can check it out.
 
 ## Usage
 
