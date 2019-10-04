@@ -29,3 +29,5 @@ To run the application on aws
 ```bash
 serverless deploy
 ```
+
+The postman tests are available in tests/postman folder.
