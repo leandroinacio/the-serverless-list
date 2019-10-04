@@ -28,6 +28,11 @@
   "homepage": "https://gitlab.com/leandroinacio/the-daily-ciandt#readme",
   "devDependencies": {
     "jest": "^24.9.0",
-    "serverless": "^1.53.0"
+    "serverless": "^1.53.0",
+    "serverless-offline": "^5.12.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "mongoose": "^5.7.3"
   }
 }

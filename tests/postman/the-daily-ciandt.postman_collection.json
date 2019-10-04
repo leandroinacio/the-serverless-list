@@ -1,0 +1,82 @@
+{
+	"variables": [],
+	"info": {
+		"name": "the-daily-ciandt",
+		"_postman_id": "27536d63-3943-7547-f2de-5021c736720e",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Reports/Fetch",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"// Check for sucessful response",
+							"tests[\"must return status code 200\"] = responseCode.code === 200;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": "https://19v23gdnif.execute-api.us-east-1.amazonaws.com/dev/reports/fetch",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Should return the news ordered by views "
+			},
+			"response": []
+		},
+		{
+			"name": "Reports/View",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"must return status code 200\"] = responseCode.code === 200;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"raw": "https://19v23gdnif.execute-api.us-east-1.amazonaws.com/dev/reports/view/{id}",
+					"protocol": "https",
+					"host": [
+						"19v23gdnif",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"reports",
+						"view",
+						"{id}"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"equals": false,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Should return a report and increase views by one"
+			},
+			"response": []
+		}
+	]
+}
