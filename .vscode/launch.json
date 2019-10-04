@@ -1,0 +1,14 @@
+{
+    "type": "node",
+    "request": "launch",
+    "name": "run fetch",
+    "program": "${workspaceFolder}/node_modules/ .bin/sls",
+    "args":[
+    "invoke",
+    "local",
+    "-f",
+    "fetchReports",
+    "--data",
+    "{}"
+    ]
+}

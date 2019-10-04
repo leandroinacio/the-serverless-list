@@ -1,0 +1,33 @@
+{
+  "name": "the-daily-ciandt",
+  "version": "1.0.0",
+  "description": ":)",
+  "main": "handler.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/leandroinacio/the-daily-ciandt.git"
+  },
+  "keywords": [
+    "ciandt",
+    "news",
+    "serverless",
+    "lambda",
+    "nodejs"
+  ],
+  "author": "Leandro Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/leandroinacio/the-daily-ciandt/issues"
+  },
+  "homepage": "https://gitlab.com/leandroinacio/the-daily-ciandt#readme",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "serverless": "^1.53.0"
+  }
+}

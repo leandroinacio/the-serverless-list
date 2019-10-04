@@ -58,7 +58,7 @@ provider:
 #    - exclude-me-dir/**
 
 functions:
-  fetchReport:
+  fetchReports:
     handler: handler.fetch
     events:
       - http:
