@@ -1,6 +1,6 @@
-# the-daily-ciandt
+# the-serverless-list
 
-The daily CI&T is a news service made with nodejs and serverless.
+The serverless list is a news service made with nodejs and serverless.
 
 ## Installation
 
