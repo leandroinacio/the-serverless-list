@@ -1,5 +1,5 @@
 {
-  "name": "the-daily-ciandt",
+  "name": "the-serverless-list",
   "version": "1.0.0",
   "description": ":)",
   "main": "handler.js",
@@ -11,10 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/leandroinacio/the-daily-ciandt.git"
+    "url": "git+https://github.com/leandroinacio/the-serverless-list.git"
   },
   "keywords": [
-    "ciandt",
     "news",
     "serverless",
     "lambda",
@@ -23,9 +22,9 @@
   "author": "Leandro Souza",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/leandroinacio/the-daily-ciandt/issues"
+    "url": "https://github.com/leandroinacio/the-serverless-list/issues"
   },
-  "homepage": "https://gitlab.com/leandroinacio/the-daily-ciandt#readme",
+  "homepage": "https://github.com/leandroinacio/the-serverless-list#readme",
   "devDependencies": {
     "jest": "^24.9.0",
     "serverless": "^1.53.0",
