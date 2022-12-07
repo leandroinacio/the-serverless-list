@@ -27,7 +27,7 @@
   "homepage": "https://github.com/leandroinacio/the-serverless-list#readme",
   "devDependencies": {
     "jest": "^24.9.0",
-    "serverless": "^1.53.0",
+    "serverless": "^3.25.1",
     "serverless-offline": "^5.12.0"
   },
   "dependencies": {
